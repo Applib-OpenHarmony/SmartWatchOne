@@ -1,0 +1,262 @@
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 750px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-image: url('common/images/watch_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    top: 40px;
+    left: 70px;
+    fit-original-size: true;
+    background-size: 10px;
+    position: absolute;
+}
+
+.fit {
+    height: 260px;
+    width: 50px;
+    top: 200px;
+    right: 360px;
+    background-size: 45px;
+    position: absolute;
+    background-image: url('common/images/cardio_fitness_level.png');
+    background-repeat: no-repeat;
+}
+
+.fitrange {
+    height: 30px;
+    width: 30px;
+    top: 240px;
+    right: 375px;
+    background-size: 25px;
+    position: absolute;
+    background-image: url('common/images/cardio_fitness_level_range.png');
+    background-repeat: no-repeat;
+}
+
+.blue {
+    top: 315px;
+    left: 507px;
+    position: absolute;
+    background-size: 35px;
+    background-image: url('common/images/Heart_rate_blue.png');
+    background-repeat: no-repeat;
+}
+
+.green {
+    top: 270px;
+    left: 513px;
+    position: absolute;
+    background-size: 32px;
+    background-image: url('common/images/Heart_rate_green.png');
+    background-repeat: no-repeat;
+}
+
+.yellow {
+    top: 220px;
+    left: 510px;
+    position: absolute;
+    background-size: 33px;
+    background-image: url('common/images/Heart_rate_yellow.png');
+    background-repeat: no-repeat;
+}
+
+.red {
+    top: 170px;
+    left: 500px;
+    position: absolute;
+    background-size: 35px;
+    background-image: url('common/images/Heart_rate_red.png');
+    background-repeat: no-repeat;
+}
+
+.grey {
+    top: 370px;
+    left: 490px;
+    position: absolute;
+    background-size: 37px;
+    background-image: url('common/images/Heart_rate_grey.png');
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url('/common/poppins/Poppins-Regular.otf');
+}
+
+.bdox {
+    height: 100px;
+    width: 140px;
+    bottom: 260px;
+    right: 170px;
+    position: absolute;
+    background-size: 135px;
+    background-image: url('common/images/Blood_oxygen_range.png');
+    background-repeat: no-repeat;
+}
+
+.bloodbg {
+    height: 100px;
+    width: 140px;
+    bottom: 260px;
+    right: 170px;
+    position: absolute;
+    background-size: 135px;
+    background-image: url('common/images/Blood_oxygen_range_bg.png');
+    background-repeat: no-repeat;
+}
+
+.slp1 {
+    height: 60px;
+    width: 70px;
+    bottom: 270px;
+    left: 420px;
+    position: absolute;
+    background-size: 60px;
+    background-image: url('common/images/sleep_range_level1.png');
+    background-repeat: no-repeat;
+}
+
+.slp2 {
+    height: 60px;
+    width: 70px;
+    bottom: 290px;
+    left: 385px;
+    position: absolute;
+    background-size: 70px;
+    background-image: url('common/images/sleep_range_level2.png');
+    background-repeat: no-repeat;
+}
+
+.slp3 {
+    height: 60px;
+    width: 70px;
+    bottom: 300px;
+    left: 345px;
+    position: absolute;
+    background-size: 70px;
+    background-image: url('common/images/sleep_range_level3.png');
+    background-repeat: no-repeat;
+}
+
+.slp4 {
+    height: 60px;
+    width: 70px;
+    bottom: 310px;
+    left: 305px;
+    position: absolute;
+    background-size: 60px;
+    background-image: url('common/images/sleep_range_level4.png');
+    background-repeat: no-repeat;
+}
+
+.calr {
+    height: 90px;
+    width: 170px;
+    top: 530px;
+    left: 312px;
+    position: absolute;
+    background-size: 150px;
+    background-image: url('common/images/calories-burned_range.png');
+    background-repeat: no-repeat;
+}
+
+.calbg {
+    height: 60px;
+    width: 140px;
+    top: 530px;
+    left: 312px;
+    position: absolute;
+    background-size: 120px;
+    background-image: url('common/images/calories_burned_bg.png');
+    background-repeat: no-repeat;
+}
+
+.stepr {
+    height: 80px;
+    width: 170px;
+    top: 530px;
+    right: 140px;
+    position: absolute;
+    background-size: 150px;
+    background-image: url('common/images/step_counter_range.png');
+    background-repeat: no-repeat;
+}
+
+.stepbg {
+    height: 80px;
+    width: 170px;
+    top: 530px;
+    right: 140px;
+    position: absolute;
+    background-size: 130px;
+    background-image: url('common/images/step_counter_bg.png');
+    background-repeat: no-repeat;
+}
+
+.temp {
+    height: 170px;
+    width: 130px;
+    top: 180px;
+    left: 250px;
+    position: absolute;
+    background-size: 100px;
+    background-image: url('common/images/sun & rain.png');
+    background-repeat: no-repeat;
+}
+
+.weather_description {
+    font-size: 6.5px;
+    font-family: poppins-regular;
+    colour: white;
+    width: 23px;
+    height: 10px;
+    top: 25.5px;
+    left: -70px;
+    text-overflow: ellipsis;
+}
+
+.date {
+    position: absolute;
+    font-size: 40px;
+    font-family: poppins-regular;
+    width: 250px;
+    height: 100px;
+    top: 350px;
+    right: 225px;
+    color: white;
+    text-overflow: ellipsis;
+}
+
+.time{
+    position: absolute;
+    font-size: 80px;
+    font-family: poppins-regular;
+    width: 190px;
+    height: 150px;
+    top: 410px;
+    right: 260px;
+    color: white;
+    text-overflow: ellipsis;
+}

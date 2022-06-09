@@ -23,7 +23,7 @@ jobs:
       - id: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: "f84cc9dbc437cd0eb2ad378978b9dfa6c673e0f9"
           LANG: JS
         uses: Applib-OpenHarmony/OpenHarmony-build@v9.15
       - name: Upload Artifact

@@ -1,7 +1,7 @@
 ## Library Name: 
 **Smart Watch One**
 ## Library Version:
-**3.0.0.900**
+**1.0.0**
 
 ## Library Release Date:
 03-06-2022

@@ -1,7 +1,7 @@
 {
   "app": {
     "vendor": "example",
-    "bundleName": "com.example.tset",
+    "bundleName": "com.example.myapplication",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -12,8 +12,7 @@
     "mainAbility": ".MainAbility",
     "deviceType": [
       "phone",
-      "tablet",
-      "wearable"
+      "tablet"
     ],
     "abilities": [
       {

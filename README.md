@@ -1,7 +1,7 @@
 ## Library Name: 
 **Smart Watch One**
 ## Library Version:
-**3.0.0.900**
+**1.0.0**
 
 ## Library Release Date:
 03-06-2022
@@ -75,5 +75,12 @@ API Key which gives the user real-time weather for a particular location.
 
 ## Advanced feature that could be implemented in Future in this library:
 Features like Sliding bar which can calculate Calories-Burned, Heart Rate, Blood Oxygen Levels, Amount of Food Intake.
+
 ## Conclusion:
 Smart Watch One can be used to get real-time weather, date and day.
+
+## Code Contribution
+If you find any problems during usage, you can submit an Issue to us. Of course, we also welcome you to send us PR.
+
+## Open source License
+This project is based on Apache License 2.0 ，please enjoy and participate in open source freely
